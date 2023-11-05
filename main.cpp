@@ -92,7 +92,7 @@ int main(int argc, const char **argv)
     ospDeviceRelease(device);
 
     // Load our module
-    ospLoadModule("example");
+    ospLoadModule("example_spheres");
 
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         std::cerr << "Failed to init SDL: " << SDL_GetError() << "\n";
